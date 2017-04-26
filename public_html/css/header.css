@@ -24,12 +24,12 @@
     float: left;
 }
 
-.main__header__link {
+.main__header__nav__link {
     display: block;
     padding: 10px 20px;
 }
 
-.main__header__link:hover {
+.main__header__nav__link:hover {
     background: blue;
     color: white;
 }
