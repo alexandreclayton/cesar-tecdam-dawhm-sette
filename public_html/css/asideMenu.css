@@ -1,22 +1,31 @@
-aside a {
+/*
+* MENU ASIDE
+*/
+.main__content__aside__Menu {
+    float: left;
+    width: 20%;
+    background-color:#ace46b;
+}
+
+.main__content__aside__Menu a {
     display: block;
     padding: 1%;
 }
 
-aside a:hover {
+.main__content__aside__Menu a:hover {
     display: block;
     background-color: aliceblue;
 }
 
-aside ul {
+.main__content__aside__Menu ul {
     border: 1px solid red;
     border-top: 0;
 }
 
-aside li{
+.main__content__aside__Menu li{
     border-bottom: 1px solid red;
 }
 
-aside li:last-child{
+.main__content__aside__Menu li:last-child{
     border-bottom: 0;
 }
